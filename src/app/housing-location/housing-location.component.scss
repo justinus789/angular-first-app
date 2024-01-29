@@ -20,10 +20,14 @@
   content: url("/assets/location-pin.svg") / "";
 }
 
+section.listing {
+  background: rgb(148, 234, 148);
+}
+
 section.listing a {
   padding-left: 20px;
   text-decoration: none;
-  color: var(--primary-color);
+  color: rgb(74, 74, 236);
 }
 section.listing a::after {
   content: "\203A";
